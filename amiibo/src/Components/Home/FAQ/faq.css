@@ -1,0 +1,51 @@
+/*FAQ main container*/
+.faq {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), purple;
+  height: 550px;
+}
+
+/*inner FAQ container*/
+.faq-cont {
+  justify-content: center;
+  color: black;
+  align-items: center;
+  margin: auto;
+}
+
+.faq-cont h1 {
+  color: white;
+}
+
+/*width of FAQ menu*/
+.set-width {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .faq {
+    height: 650px;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq {
+    height: 800px;
+  }
+
+  .set-width {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .faq {
+    height: 1000px;
+  }
+
+  .set-width {
+    width: 70%;
+    margin: auto;
+  }
+}
